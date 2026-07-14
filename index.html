@@ -2,9 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RGA App Assets</title>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+  >
+
+  <title>RGA Receipts</title>
+
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="./rga-apple-touch-icon-180.png"
+  >
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="./rga-icon-192.png"
+  >
+
+  <link rel="manifest" href="./manifest.json">
+
+  <meta name="theme-color" content="#0B1B35">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="RGA Receipts">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="RGA Receipts">
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #F9FAFB;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
-  <p>RGA Receipt Portal application assets.</p>
+  <iframe
+    src="YOUR_APPS_SCRIPT_WEB_APP_URL"
+    title="RGA Receipt Portal"
+    allow="camera"
+  ></iframe>
 </body>
 </html>
